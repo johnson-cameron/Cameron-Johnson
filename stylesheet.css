@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) {
+    img{
+		max-width: 25%;
+		border-radius: 20px;
+		box-shadow: 10px 5px 5px teal;
+		float: left;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 768px) {
+    img{
+		max-width: 60%;
+		border-radius: 20px;
+		box-shadow: 10px 5px 5px teal;
+		float: left;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+}
+
+a:hover {
+    color:lightsalmon;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	padding: 30px;
+	border-style: solid;
+	border-color: goldenrod;
+}
+
+input {
+	margin-bottom: 20px;
+	margin-top: 5px;
+	
+}
+input[type=text]{
+	height: auto;
+	width: 150px;
+}
+input[type=textarea]{
+	height: 100px;
+	width: 300px;
+}
+	
